@@ -1,0 +1,71 @@
+.headerGroup{
+    display:flex;
+    justify-content: space-between;
+}
+
+button {
+    font-family: modena sans;
+    color:#4A7A8C;
+    background-color: f2f2f2;
+    border: none;
+    width: 215px;
+    height: 54px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 22px;
+    font-family: modena sans;
+    color:  #4A7A8C;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /* align-items:; */
+    
+}
+
+li {
+    padding: 50px;
+}
+
+
+h1 {
+font-family: modena script;
+font-size: 50px;
+color: #4A7A8C;
+}
+
+p {
+    font-family: nunito sans;
+}
+
+h3 {
+    font-family: modena sans;
+    color: #4A7A8C;
+}
+/* My UX Skills section coded using CSS flex */
+.flexContainer {
+    display:flex;
+}
+
+div {
+    width: 33%;
+    padding: 50px;
+    margin: 25px;
+  
+}
+
+.workGrid {
+    display:flex;
+}
+
+
+@media only screen and (max-width: 600){
+   .workGrid .flexContainer {
+       display: flex;
+       flex-direction: row-reverse;
+       width: 100%;
+    
+   }
+}
