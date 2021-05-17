@@ -1,6 +1,9 @@
 .headerGroup{
     display:flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    font-family: modena sans;
+    color:#4A7A8C;
+
 }
 
 button {
@@ -10,9 +13,9 @@ button {
     border: none;
     width: 215px;
     height: 54px;
-}
+    }
 
-ul {
+/* ul {
     display: flex;
     justify-content: space-evenly;
     font-size: 22px;
@@ -21,13 +24,13 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    /* align-items:; */
+    align-items:;
     
-}
+} */
 
-li {
+/* li {
     padding: 50px;
-}
+} */
 
 
 h1 {
