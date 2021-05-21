@@ -1,9 +1,14 @@
-.headerGroup{
+.headerGroup {
     display:flex;
-    /* justify-content: space-between; */
+    width:100vw;
+    justify-content: space-between;
     font-family: modena sans;
     color:#4A7A8C;
+    
+}
 
+body {
+    margin: 0px;
 }
 
 button {
@@ -53,17 +58,24 @@ h3 {
     display:flex;
 }
 
-div {
+/* div {
     width: 33%;
     padding: 50px;
     margin: 25px;
   
+} */
+
+.workGrid, .mySkills {
+    display:flex; 
+    width:100vw;
 }
 
-.workGrid {
-    display:flex;
+.workGrid div, .mySkills div div{
+width: 21vw;
+display: flex;
+flex-direction: column;
+padding: 0 1.5vw;
 }
-
 
 @media only screen and (max-width: 600){
    .workGrid .flexContainer {
